@@ -21,7 +21,7 @@ CONFIG = ConfigSchema(
         ),
     ),
     dataset_config=DatasetConfigSchemaUniformSampling(
-        fasta_file = [Path("/mnt/SSD2/pholur/General_Models/data/all/chm13v2.0.fa")], 
+        fasta_file = [Path("../General_Models/data/all/chm13v2.0.fa")], 
         range_min = 800,
         range_max = 2000,
         subsequence_range_min = 80,
