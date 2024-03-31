@@ -3,7 +3,7 @@ from pathlib import Path
 from Bio.SeqIO.FastaIO import FastaIterator
 from Bio.SeqRecord import SeqRecord
 
-from XXXX-2.utils import (
+from dnaesa.utils import (
     cfg_to_wandb_dict,
     download_human_reference_genome,
     get_config_from_path,

@@ -1,14 +1,14 @@
-from XXXX-2.config_schema import (
+from dnaesa.config_schema import (
     ConfigSchema,
     TrainingConfigSchema,
     DatasetConfigSchema,
     SchedulerConfigSchema,
 )
-from XXXX-2.main import main
+from dnaesa.main import main
 from pathlib import Path
 import warnings
 import torch
-from XXXX-2.trainer import ContrastiveTrainer
+from dnaesa.trainer import ContrastiveTrainer
 
 
 def test_main():

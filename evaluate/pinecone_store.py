@@ -1,5 +1,5 @@
 """
-Pinecone store for XXXX-2 embeddings
+Pinecone store for dnaesa embeddings
 
 This usually crashes in the first run but succeeds in the second 0_o
 Issues with API timeout on DB creation

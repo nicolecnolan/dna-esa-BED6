@@ -9,9 +9,9 @@ from typing import Optional
 import typer
 import wandb
 
-from XXXX-2.model import Encoder
-from XXXX-2.trainer import ContrastiveTrainer
-from XXXX-2.utils import cfg_to_wandb_dict, get_config_from_path
+from dnaesa.model import Encoder
+from dnaesa.trainer import ContrastiveTrainer
+from dnaesa.utils import cfg_to_wandb_dict, get_config_from_path
 
 
 def main(config_path: Optional[str] = None):
@@ -26,7 +26,7 @@ def main(config_path: Optional[str] = None):
 
     config = get_config_from_path(cfg)
     # log config to wandb
-    wandb.init(project="XXXX-2", config=cfg_to_wandb_dict(config))
+    wandb.init(project="dnaesa", config=cfg_to_wandb_dict(config))
 
     model_cfg = config.model_config
     training_cfg = config.training_config

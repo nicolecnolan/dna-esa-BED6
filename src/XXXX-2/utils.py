@@ -12,9 +12,9 @@ from Bio.SeqIO.FastaIO import FastaIterator
 from pydantic import BaseModel
 from tqdm import tqdm
 
-from XXXX-2.config_schema import ConfigSchema
+from dnaesa.config_schema import ConfigSchema
 
-CACHE_DIR = Path.home() / ".cache" / "XXXX-2"
+CACHE_DIR = Path.home() / ".cache" / "dnaesa"
 
 
 def download_human_reference_genome(
@@ -72,7 +72,7 @@ def download_url(url, output_path, use_uncertified_ssl: bool = False):
 
 def get_cache_dir() -> Path:
     """
-    Get the cache directory for XXXX-2. Can be overridden by setting the environment
+    Get the cache directory for dnaesa. Can be overridden by setting the environment
     variable DNA2VEC_CACHE_DIR.
     """
     cache_dir = os.environ.get("DNA2VEC_CACHE_DIR")

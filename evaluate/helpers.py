@@ -10,7 +10,7 @@ from collections import defaultdict
 
 # import sys
 # sys.path.append("../src/")
-from XXXX-2.model import model_from_config
+from dnaesa.model import model_from_config
 
 from collections import defaultdict
 import time
@@ -308,7 +308,7 @@ def sample_subsequence(string: str,
     return subsequence
 
 
-def pick_random_lines(path:str = "/home/pholur/XXXX-2/tests/data/subsequences_sample_train.txt",
+def pick_random_lines(path:str = "/home/pholur/dnaesa/tests/data/subsequences_sample_train.txt",
                       k = 100,
                       mode: str = "random",
                       sequences_prior: int = 0,
@@ -347,8 +347,8 @@ def pick_random_lines(path:str = "/home/pholur/XXXX-2/tests/data/subsequences_sa
 
 
 def pick_from_special_gene_list(
-            gene_path = "/home/pholur/XXXX-2/tests/data/ch2_genes.csv",
-            full_path = "/home/pholur/XXXX-2/tests/data/NC_000002.12.txt",
+            gene_path = "/home/pholur/dnaesa/tests/data/ch2_genes.csv",
+            full_path = "/home/pholur/dnaesa/tests/data/NC_000002.12.txt",
             samples = 5000,
 ):
     import pandas as pd

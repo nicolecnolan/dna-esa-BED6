@@ -1,6 +1,6 @@
 # DNA-ESA
 
-This repository contains code files for DNA-ESA. The main code files can be found under `src/XXXX-2`, while the data is saved under the `data` directory.
+This repository contains code files for DNA-ESA. The main code files can be found under `src/dnaesa`, while the data is saved under the `data` directory.
 
 ## Installation
 

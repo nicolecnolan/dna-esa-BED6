@@ -7,7 +7,7 @@ from tqdm import tqdm
 import yaml
 import argparse
 from pinecone_store import PineconeStore
-from XXXX-2.model import model_from_config
+from dnaesa.model import model_from_config
 from helpers import pick_random_lines, initialize_pinecone, data_recipes, checkpoints
 import numpy as np
 from typing import Literal

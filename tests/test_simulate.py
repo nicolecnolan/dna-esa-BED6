@@ -4,7 +4,7 @@ from typing import List
 import pytest
 from pysam.libcalignedsegment import AlignedSegment
 
-from XXXX-2.simulate import (
+from dnaesa.simulate import (
     ReadAndReference,
     load_simulated_reads_from_disk,
     map_reads_to_reference,

@@ -3,8 +3,8 @@ from pathlib import Path
 
 from torch.utils.data import DataLoader  # type: ignore
 
-from XXXX-2.dataset import FastaSamplerDataset, collate_fn
-from XXXX-2.tokenizer import BPTokenizer
+from dnaesa.dataset import FastaSamplerDataset, collate_fn
+from dnaesa.tokenizer import BPTokenizer
 
 
 def test_fasta_sampler_dataset():

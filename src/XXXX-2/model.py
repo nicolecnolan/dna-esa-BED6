@@ -7,7 +7,7 @@ from typing import Dict, Literal, Optional, Tuple, Type
 import torch
 import torch.nn as nn
 
-from XXXX-2.tokenizer  import BPTokenizer
+from dnaesa.tokenizer  import BPTokenizer
 
 import logging
 

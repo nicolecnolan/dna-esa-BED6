@@ -11,11 +11,11 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torch.optim.lr_scheduler import LRScheduler
 import wandb
-from XXXX-2.config_schema import ConfigSchema
-from XXXX-2.dataset import collate_fn
-from XXXX-2.model import model_from_config
+from dnaesa.config_schema import ConfigSchema
+from dnaesa.dataset import collate_fn
+from dnaesa.model import model_from_config
 
-from XXXX-2.tokenizer import BPTokenizer
+from dnaesa.tokenizer import BPTokenizer
 
 class ContrastiveTrainer:
     def __init__(

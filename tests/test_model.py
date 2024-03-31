@@ -3,7 +3,7 @@ import warnings
 import pytest
 import torch
 
-from XXXX-2.model import Encoder, LearnedPositionalEncoding
+from dnaesa.model import Encoder, LearnedPositionalEncoding
 
 
 def test_model():

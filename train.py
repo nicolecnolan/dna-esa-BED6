@@ -2,11 +2,11 @@ from pathlib import Path
 
 import torch
 
-from XXXX-2.config_schema import (ConfigSchema,
+from dnaesa.config_schema import (ConfigSchema,
                                    DatasetConfigSchemaUniformSampling,
                                    SchedulerConfigSchema, TrainingConfigSchema)
-from XXXX-2.dataset import FastaUniformSampler
-from XXXX-2.main import main
+from dnaesa.dataset import FastaUniformSampler
+from dnaesa.main import main
 
 device = torch.device("cuda:5")
 CONFIG = ConfigSchema(

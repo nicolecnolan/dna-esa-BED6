@@ -13,7 +13,7 @@ import pysam
 from Bio.SeqIO.FastaIO import FastaIterator
 from pysam.libcalignedsegment import AlignedSegment
 
-from XXXX-2.utils import (
+from dnaesa.utils import (
     download_human_reference_genome,
     get_cache_dir,
     load_human_reference_genome,

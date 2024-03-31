@@ -12,9 +12,9 @@ from torch import nn
 from torch.optim.lr_scheduler import LRScheduler, OneCycleLR
 from torch.utils.data import Dataset
 
-from XXXX-2.dataset import FastaSamplerDataset
-from XXXX-2.model import AveragePooler, SinusoidalPositionalEncoding
-from XXXX-2.similarity import SimilarityWithTemperature
+from dnaesa.dataset import FastaSamplerDataset
+from dnaesa.model import AveragePooler, SinusoidalPositionalEncoding
+from dnaesa.similarity import SimilarityWithTemperature
 
 scheduler = partial(OneCycleLR, 
                        max_lr = 1e-4, # Upper learning rate boundaries in the cycle for each parameter group

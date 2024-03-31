@@ -1,5 +1,5 @@
-ch2: "/home/pholur/XXXX-2/evaluate/data/chromosome_2/floodfill.pkl"
-ch3: "/home/pholur/XXXX-2/evaluate/data/chromosome_3/floodfill.pkl"
+ch2: "/home/pholur/dnaesa/evaluate/data/chromosome_2/floodfill.pkl"
+ch3: "/home/pholur/dnaesa/evaluate/data/chromosome_3/floodfill.pkl"
 all: "/mnt/SSD2/pholur/General_Models/data/all/floodfill.pkl"
 
 ch11: "/mnt/SSD2/pholur/General_Models/data/chr11/floodfill.pkl"

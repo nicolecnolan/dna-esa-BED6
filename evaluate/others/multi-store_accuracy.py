@@ -1,5 +1,5 @@
 import os
-os.environ["DNA2VEC_CACHE_DIR"] = "/mnt/SSD2/pholur/XXXX-2"
+os.environ["DNA2VEC_CACHE_DIR"] = "/mnt/SSD2/pholur/dnaesa"
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = "2,3"
 
@@ -16,8 +16,8 @@ import logging
 import random
 from itertools import product
 
-from XXXX-2.config_schema import DatasetConfigSchemaUniformSampling
-from XXXX-2.simulate import simulate_mapped_reads
+from dnaesa.config_schema import DatasetConfigSchemaUniformSampling
+from dnaesa.simulate import simulate_mapped_reads
 
 from pinecone_store import PineconeStore
 

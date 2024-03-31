@@ -6,7 +6,7 @@ minimal script for processing human genome to txt files
 from Bio import SeqIO
 
 # Open the FASTA file and parse the sequences
-fasta_file = "/Users/au561649/Github/XXXX-2/data/GRCh38_latest_genomic.fna"
+fasta_file = "/Users/au561649/Github/dnaesa/data/GRCh38_latest_genomic.fna"
 sequences = SeqIO.parse(open(fasta_file), "fasta")
 
 # Loop over the sequences and extract the one for chromosome 18
@@ -16,5 +16,5 @@ for seq_record in sequences:
     seq = seq_record.seq
     print(id_)
     if "NC_000002.12" == id_:
-        with open(f"/Users/au561649/Github/XXXX-2/data/{id_}.txt", "w") as f:
+        with open(f"/Users/au561649/Github/dnaesa/data/{id_}.txt", "w") as f:
             f.write(str(seq))

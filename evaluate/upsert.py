@@ -1,6 +1,6 @@
 import argparse
 from helpers import initialize_pinecone, data_recipes
-from XXXX-2.config_schema import DatasetConfigSchemaUniformSampling
+from dnaesa.config_schema import DatasetConfigSchemaUniformSampling
 
 parser = argparse.ArgumentParser(description="Config upsert")
 parser.add_argument('--recipes', type=str)

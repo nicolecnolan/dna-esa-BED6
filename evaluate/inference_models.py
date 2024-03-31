@@ -40,7 +40,7 @@ class Baseline():
                                  "hyena-dna-mean",
                                  "hyena-dna-max"], 
                  device: str,
-                 cache_dir: str = '/mnt/SSD2/pholur/XXXX-2/baselines'):
+                 cache_dir: str = '/mnt/SSD2/pholur/dnaesa/baselines'):
         
         import os
         os.environ['TRANSFORMERS_CACHE'] = cache_dir

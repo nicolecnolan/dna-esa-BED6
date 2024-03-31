@@ -1,5 +1,5 @@
 ##ART_Illumina	read_length	100
-@CM	art_illumina -ss HS20 -sam -i /home/XXXX-1/.cache/XXXX-2/GRCh38_latest_genomic.fna -l 100 -c 10 -o /home/XXXX-1/github/XXXX-2/tests/data/sample_simulated_reads --insRate 0.00009 --delRate 0.00009 -rs 1689559144
+@CM	art_illumina -ss HS20 -sam -i /home/pholur/.cache/dnaesa/GRCh38_latest_genomic.fna -l 100 -c 10 -o /home/pholur/github/dnaesa/tests/data/sample_simulated_reads --insRate 0.00009 --delRate 0.00009 -rs 1689559144
 @SQ	NC_000001.11 Homo sapiens chromosome 1, GRCh38.p14 Primary Assembly	248956422
 @SQ	NT_187361.1 Homo sapiens chromosome 1 unlocalized genomic scaffold, GRCh38.p14 Primary Assembly HSCHR1_CTG1_UNLOCALIZED	175055
 @SQ	NT_187362.1 Homo sapiens chromosome 1 unlocalized genomic scaffold, GRCh38.p14 Primary Assembly HSCHR1_CTG2_UNLOCALIZED	32032

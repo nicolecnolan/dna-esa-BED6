@@ -12,11 +12,11 @@ import typer
 from torch.utils.data import DataLoader
 
 import wandb
-from XXXX-2.config_schema import ConfigSchema
-from XXXX-2.dataset import collate_fn
-from XXXX-2.model import model_from_config
-from XXXX-2.trainer import ContrastiveTrainer
-from XXXX-2.utils import cfg_to_wandb_dict, get_config_from_path
+from dnaesa.config_schema import ConfigSchema
+from dnaesa.dataset import collate_fn
+from dnaesa.model import model_from_config
+from dnaesa.trainer import ContrastiveTrainer
+from dnaesa.utils import cfg_to_wandb_dict, get_config_from_path
 
 
 def main(config: ConfigSchema, wandb_mode: str = "online", watch_watch: bool = True):
@@ -62,7 +62,7 @@ def main(config: ConfigSchema, wandb_mode: str = "online", watch_watch: bool = T
     )
 
     # log config to wandb
-    wandb.init(project="XXXX-2", config=cfg_to_wandb_dict(config), mode=wandb_mode)
+    wandb.init(project="dnaesa", config=cfg_to_wandb_dict(config), mode=wandb_mode)
     if watch_watch:
         wandb.watch(model, log="all", log_freq=1, log_graph=True) # just for debugging
 

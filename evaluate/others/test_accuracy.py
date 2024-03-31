@@ -11,13 +11,13 @@ import logging
 import random
 from itertools import product
 
-from XXXX-2.config_schema import DatasetConfigSchemaUniformSampling
-from XXXX-2.simulate import simulate_mapped_reads
+from dnaesa.config_schema import DatasetConfigSchemaUniformSampling
+from dnaesa.simulate import simulate_mapped_reads
 
 from pinecone_store import PineconeStore
 
 import os
-os.environ["DNA2VEC_CACHE_DIR"] = "/mnt/SSD2/pholur/XXXX-2"
+os.environ["DNA2VEC_CACHE_DIR"] = "/mnt/SSD2/pholur/dnaesa"
 
 grid = {
     "read_length": [250], #[150, 300, 500],
